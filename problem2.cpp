@@ -38,7 +38,6 @@ public:
         }
         int gcd=a;
         while(!(a%gcd==0 && b%gcd==0)) //don't know any better gcd algorithms well.
-
         {
             gcd--;
         }
