@@ -1,5 +1,5 @@
-#include <iostream.h>
-#include<string.h>
+#include <iostream.h> //edited the first and the second problems
+#include<string.h>    //to rectify my mistake of just asking for numerator and denominators.
 #include<math.h>
 
 using namespace std;
