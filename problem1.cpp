@@ -11,7 +11,7 @@ class fract
     int den;
 
 
-    fract()
+    fract() //primary constructor
     {
         cout<<"input a fraction in the form a/b"<<endl;
         string s;
@@ -43,7 +43,7 @@ class fract
 
 
     }
-    fract (int a)
+    fract (int a) //used to just create a fract, and not initialise it
     {
 
     }
@@ -53,7 +53,7 @@ class fract
     }
     void inv()
     {
-       fract a(1);
+       fract a(1); //the second constructor is called here
        a.num=den;
        a.den=num;
        if (num==0)
