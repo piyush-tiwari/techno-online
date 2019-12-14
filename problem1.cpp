@@ -72,8 +72,5 @@ int main()
 
     fract f;
     f.inv();
-
-
-
     return 0;
 }
